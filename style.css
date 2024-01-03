@@ -72,7 +72,6 @@ main {
   background-attachment: fixed;
   min-height: 100svh;
   /* background-size: 100% 100%; */
-  border: 1px solid green;
 
   padding: 1rem;
   background-color: var(--color-light-pink);
@@ -102,7 +101,7 @@ main {
   align-items: center;
   position: relative;
 }
-h5 {
+h4 {
   width: 80%;
 }
 button {
@@ -121,15 +120,11 @@ button {
 
 .faq-accordion-question-body {
   display: none;
-  max-height: 0;
-  transition: all 1s ease-in-out;
-  overflow: hidden;
 }
 
 .faq-accordion-question-body.active {
   display: block;
-  padding-top: 0.5rem;
-  max-height: 1000px;
+  padding: 1rem 0 0.5rem 0;
 }
 p {
   color: var(--color-grayish-purple);
